@@ -3,7 +3,7 @@
 
 Pyxl detection, syntax, and indent files. The easiest way to install the vim support is via [vim-pug](https://github.com/junegunn/vim-plug);
 
-``vim
+``
   Plug 'charlieonor/pyxl-vim';
 ``
 

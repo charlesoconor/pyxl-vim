@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/84dbaf5/
+Detect_pyxl	ftdetect/pyxl.vim	/^function! Detect_pyxl()$/;"	f
+GetMarkupIndent	indent/pyxl.vim	/^fun! <SID>GetMarkupIndent(lnum)$/;"	f
+GetPyxlIndent	indent/pyxl.vim	/^function! GetPyxlIndent(lnum)$/;"	f
+HiLink	syntax/pyxl.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	syntax/pyxl.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+HtmlHiLink	syntax/pyxl.vim	/^  command! -nargs=+ HtmlHiLink hi def link <args>$/;"	c
+HtmlHiLink	syntax/pyxl.vim	/^  command! -nargs=+ HtmlHiLink hi link <args>$/;"	c
+Vim plugin to deal with python pyxl	README.md	/^### Vim plugin to deal with python pyxl$/;"	S
+XmlIndentSum	indent/pyxl.vim	/^fun! <SID>XmlIndentSum(lnum, style)$/;"	f
+XmlIndentSumLines	indent/pyxl.vim	/^fun! <SID>XmlIndentSumLines(startnum, endnum, style)$/;"	f
+XmlIndentWithPattern	indent/pyxl.vim	/^fun! <SID>XmlIndentWithPattern(line, pat)$/;"	f
+b:current_syntax	syntax/pyxl.vim	/^let b:current_syntax = "pyxl"$/;"	v
+b:did_indent	indent/pyxl.vim	/^let b:did_indent = 1$/;"	v
+b:xml_indent_close	indent/pyxl.vim	/^    let b:xml_indent_close = '.\\{-}<\/'$/;"	v
+b:xml_indent_open	indent/pyxl.vim	/^    let b:xml_indent_open = '.\\{-}<\\a'$/;"	v
+did_html_syn_inits	syntax/pyxl.vim	/^    let did_html_syn_inits = 1$/;"	v
+did_python_syn_inits	syntax/pyxl.vim	/^    let did_python_syn_inits = 1$/;"	v
+filetypedetect	ftdetect/pyxl.vim	/^augroup filetypedetect$/;"	a
+main_syntax	syntax/pyxl.vim	/^  let main_syntax = 'pyxl'$/;"	v
+python_space_error_highlight	syntax/pyxl.vim	/^  let python_space_error_highlight = 1$/;"	v
+s:BlockStarter	indent/pyxl.vim	/^function! s:BlockStarter(lnum, block_start_re)$/;"	f
+s:SearchParensPair	indent/pyxl.vim	/^function! s:SearchParensPair()$/;"	f
+s:StatementStart	indent/pyxl.vim	/^function! s:StatementStart(lnum)$/;"	f
+s:cpo_save	indent/pyxl.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	syntax/pyxl.vim	/^let s:cpo_save = &cpo$/;"	v
+s:maxoff	indent/pyxl.vim	/^let s:maxoff = 50$/;"	v
